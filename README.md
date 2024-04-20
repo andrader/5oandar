@@ -1,70 +1,52 @@
-# Case
+# QuintoAndar Case
 
-Imagine you've just been hired as a Data Analyst to join one of our Data
-Squads, responsible for leveraging the products team and operation
-team to make better decisions based on data and provide insights
-that improve the our stakeholders decisions.
+Imagine you've just been hired as a Data Analyst to join one of our Data Squads, responsible for leveraging the products team and operation team to make better decisions based on data and provide insights that improve the our stakeholders decisions.
 
-This quarter, your main goal is to help the product team to **increase
-the number of contracts signed**, which **has been in steady decline** since early this year.
+This quarter, your main goal is to help the product team to **increase the number of contracts signed**, which **has been in steady decline** since early this year.
 
 ## What seems to be happening?
 
-    Try to understand main bottlenecks along the funnel and raise hypotheses that may have caused each behavior.
+Try to understand main bottlenecks along the funnel and raise hypotheses that may have caused each behavior.
 
-Os dados do contratos assinados por visita sugerem que na maioria das vezes, as primeiras visitas não são convertidas em contratos assinados (Figura [01](#fig01)). Isto também é visto no funil de contratos com o **número de inquilinos que fizeram ofertas** (Figuras [02](#fig02) e [03](#fig03)). 
+The data on contracts signed per visit suggests that most of the time, initial visits are not converted into signed contracts (Figure [01](#fig01)). This is also evident in the contract funnel with the **number of tenants making offers** (Figures [02](#fig02) and [03](#fig03)).
 
-Talvez se os inquilinos fizessem mais visitas, aumentasse a probabilidade de fazer uma oferta e, por consequência, de assinar contrato. Uma outra possibilidade, é causar uma melhor impressão ou um melhor match nas primeiras visitas. Para isso, aumentar a verosimilhança dos anúncios pode ajudar: muitas reviews tem marcações da casa ser diferente do anúncio, não estar tão conservada e/ou ser maior nas fotos (Figura [06](#fig06)). As pessoas estão indo para a visita com expectavas diferentes do que vão encontrar. Ao mostrar anúncios que retratam melhor a condição da casa, pode resultar expectativas alinhadas nas primeiras visitas e uma maior probabilidade de fazer uma oferta e assinar contrato. 
+Perhaps if tenants made more visits, the likelihood of making an offer and consequently signing a contract would increase. Another possibility is to create a better impression or a better match during the initial visits. To achieve this, improving the likelihood of the ads could help: many reviews indicate discrepancies between the house and the ad, such as it not being as well-maintained or being larger in the photos (Figure [06](#fig06)). People are going to the visits with different expectations than what they will find. By showing ads that better portray the condition of the house, it may result in aligned expectations during the initial visits and a higher probability of making an offer and signing a contract.
 
-Além disso, o **número de casas visitadas** parece ser um outro bottleneck, que limita todo o funil abaixo**: número de ofertas, de inquilinos que fizeram ofertas e, consequentemente, o número de contratos. Essa é a maior separação no gráfico de funil (Figuras [02](#fig02) e [03](#fig03)). Como isso, mesmo com as notas das visitas praticamente constantes no tempo (Figuras [05](#fig05)), o número de contratos assinados continua em queda.<br><br>
-    
+Additionally, the **number of houses visited** seems to be another bottleneck, which limits the entire funnel below: number of offers, number of tenants making offers, and consequently, the number of contracts. This is the largest gap in the funnel chart (Figures [02](#fig02) and [03](#fig03)). Consequently, even with the visit ratings practically constant over time (Figure [05](#fig05)), the number of signed contracts continues to decline.
 
 ## Is there any other information that would be relevant to your analysis?
 
-    Why would it be relevant? What would be the outputs with the new data available?
+Why would it be relevant? What would be the outputs with the new data available?
 
-- Seria interessante saber quais visitas resultaram em contratos.
-- Quantas visitas cada inquilino fez até aquele momento. 
+- It would be interesting to know which visits resulted in contracts.
+- How many visits each tenant made up to that point.
 
-Isto é, seria útil ter as outras duas tabelas na mesma granularidade da tabela de visita e chaves para conseguir combinar essas tabelas.
-Com esses dados adicionais poderíamos conectar as informações das três tabelas fornecidas e fazer obter insights mais precisos e aprofundados.
-<br><br> 
-  
+In other words, it would be useful to have the other two tables at the same granularity as the visit table and keys to be able to combine these tables. With this additional data, we could connect the information from the three provided tables and obtain more precise and in-depth insights.
 
-## Can you think of 3 other analysis that could help our stakeholder with our quarter goal?
+## Can you think of 3 other analyses that could help our stakeholders with our quarter goal?
 
-    Please describe the analysis as well as the benefits of each one for our stakeholders. Try to explain how the idea could be implemented, connecting strategy with product team and how these analysis can make impact in our stakeholders decisions.
+Please describe the analysis as well as the benefits of each one for our stakeholders. Try to explain how the idea could be implemented, connecting strategy with the product team and how these analyses can make an impact on our stakeholders' decisions.
 
-- Analisar a qualidade dos anúncios e o que fazer para melhor alinhar as expectativas dos clientes na primeira visita.
-- Analisar como melhorar os filtros de anúncios/recomendação de anúncios, para que o cliente consiga uma correspondência mais adequada e, assim, uma maior probabilidade de assinar contrato nas primeiras visitas.
-- Analisar/entender o que faz o número de casas visitadas ser menor. Talvez, novamente, isso esteja relacionado com a qualidade dos anúncios, localidade, etc.
+- Analyze the quality of the ads and what to do to better align customer expectations on the first visit.
+- Analyze how to improve ad filters/ad recommendation, so that the customer can get a better match and thus a higher probability of signing a contract on the first visit.
+- Analyze/understand what causes the number of houses visited to be lower. Perhaps, again, this is related to the quality of the ads, location, etc.
 
+## Figures
 
-## Figuras
-
-<a name="fig01">Figura 01: Número de clientes que assinaram vs não assiram (esquerda) e a proporção de clientes que assinaram (direita).</a>
+<a name="fig01">Figure 01: Number of customers who signed vs. did not sign (left) and the proportion of customers who signed (right).</a>
 ![fig01](images/fig01.png)
 
-
-
-<a name="fig02">Figura 02: Funil de contratação em cada mês.</a>
+<a name="fig02">Figure 02: Contract funnel each month.</a>
 ![fig02](images/fig02.png)
 
-  
-<a name="fig03">Figura 03: Evolução do funil de contratação ao longo do tempo.</a>
+<a name="fig03">Figure 03: Evolution of the contract funnel over time.</a>
 ![fig03](images/fig03.png)
 
-
-<a name="fig04">Figura 04: Correlações entre as variáveis do funil.</a>
+<a name="fig04">Figure 04: Correlations between funnel variables.</a>
 ![fig04](images/fig04.png)
 
-
-<a name="fig05">Figura 05: Distribuição das Reviews ao longo dos meses.</a>
+<a name="fig05">Figure 05: Distribution of Reviews over months.</a>
 ![fig05](images/fig05.png)
 
-
-<a name="fig06">Figura 06: Proporção das opiniões negativas ao longo do tempo.</a>
+<a name="fig06">Figure 06: Proportion of negative opinions over time.</a>
 ![fig06](images/fig06.png)
-
-
-
